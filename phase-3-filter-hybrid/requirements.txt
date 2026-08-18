@@ -1,0 +1,5 @@
+# Phase 3 — 메타데이터 필터 & 하이브리드 검색
+# 이 폴더 실습에 필요한 패키지.
+
+chromadb   # 벡터 DB (필터 where/where_document, 의미 검색).
+ollama     # chromadb의 OllamaEmbeddingFunction이 내부에서 쓰는 클라이언트.
