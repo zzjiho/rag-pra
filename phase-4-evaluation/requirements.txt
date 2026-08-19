@@ -1,0 +1,5 @@
+# Phase 4 — 검색 평가 (recall@k · MRR · nDCG)
+# 이 폴더 실습에 필요한 패키지.
+
+chromadb   # 벡터 DB (검색 대상 코퍼스 저장 + 의미 검색).
+ollama     # chromadb의 OllamaEmbeddingFunction이 내부에서 쓰는 클라이언트.
