@@ -1,0 +1,5 @@
+# Phase 5 — 청킹 심화 (recursive · semantic · parent-child)
+# 이 폴더 실습에 필요한 패키지.
+
+chromadb   # 벡터 DB (청크 저장 + 의미 검색).
+ollama     # chromadb의 OllamaEmbeddingFunction이 내부에서 쓰는 클라이언트.
