@@ -1,0 +1,9 @@
+# Phase 6 — RAG 파이프라인 & LLM 결합
+# 이 폴더 실습에 필요한 패키지.
+
+chromadb   # 벡터 DB (청크 저장 + 의미 검색).
+ollama     # 임베딩(bge-m3)과 채팅 LLM(qwen2.5:7b)을 파이썬에서 호출.
+
+# (선택) serve.py 로 FastAPI API 서버를 띄울 때만 필요:
+# fastapi
+# uvicorn
