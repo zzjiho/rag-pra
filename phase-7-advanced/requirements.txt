@@ -1,0 +1,8 @@
+# Phase 7 — RAG 고급 패턴 (재랭킹 · Multi-Query · HyDE)
+# 이 폴더 실습에 필요한 패키지.
+
+chromadb   # 벡터 DB (검색).
+ollama     # 임베딩(bge-m3)과 채팅 LLM(qwen2.5:7b) 호출.
+
+# (선택) 전용 cross-encoder 재랭킹을 실제로 써보고 싶을 때만 (README 참고, 설치 무거움):
+# sentence-transformers
