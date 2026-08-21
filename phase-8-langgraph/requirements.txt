@@ -1,0 +1,6 @@
+# Phase 8 — LangGraph 통합 (Agentic RAG)
+# 이 폴더 실습에 필요한 패키지.
+
+chromadb    # 벡터 DB (검색 = 에이전트의 지식/기억).
+ollama      # 임베딩(bge-m3)과 채팅 LLM(qwen2.5:7b) 호출.
+langgraph   # 상태 그래프로 에이전트(노드·조건부 엣지·루프)를 구성.
